@@ -8,6 +8,7 @@ class AppTest {
 
     @Test
     void testMessage() {
-        assertEquals("Hello from Jenkins CI/CD!", App.message());
+        assertEquals("Hello from Jenkins CI/CD - Build 2!", App.message());
+
     }
 }
